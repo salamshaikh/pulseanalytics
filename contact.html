@@ -343,14 +343,14 @@
                             <div
                                 class="order-1 block rounded-lg bg-white px-[30px] py-[50px] shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] md:order-2">
                                 <!-- Contact Form -->
-                                <form name="contact" netlify class="flex flex-col gap-y-5">
+                                <form name="contact" method="POST" netlify class="flex flex-col gap-y-5">
                                     <!-- Form Group -->
                                     <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-name" class="text-lg font-bold leading-[1.6]">Enter your
+                                            <label for="name" class="text-lg font-bold leading-[1.6]">Enter your
                                                 name</label>
-                                            <input type="text" name="contact-name" id="contact-name"
+                                            <input type="text" name="name" id="contact-name"
                                                 placeholder="Your Full Name"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
@@ -358,9 +358,9 @@
                                         <!-- Form Single Input -->
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-email" class="text-lg font-bold leading-[1.6]">Email
+                                            <label for="email" class="text-lg font-bold leading-[1.6]">Email
                                                 address</label>
-                                            <input type="email" name="contact-email" id="contact-email"
+                                            <input type="email" name="email" id="contact-email"
                                                 placeholder="Your Business Email ID"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
@@ -372,9 +372,9 @@
                                     <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-phone" class="text-lg font-bold leading-[1.6]">Phone
+                                            <label for="phone" class="text-lg font-bold leading-[1.6]">Phone
                                                 number</label>
-                                            <input type="tel" name="contact-phone" id="contact-phone"
+                                            <input type="tel" name="phone" id="contact-phone"
                                                 placeholder="Your Contact no"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
@@ -382,9 +382,9 @@
                                         <!-- Form Single Input -->
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-company"
+                                            <label for="company"
                                                 class="text-lg font-bold leading-[1.6]">Company</label>
-                                            <input type="text" name="contact-company" id="contact-company"
+                                            <input type="text" name="company" id="contact-company"
                                                 placeholder="Your Company Name"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
@@ -396,9 +396,9 @@
                                     <div class="grid grid-cols-1 gap-6">
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-message"
+                                            <label for="message"
                                                 class="text-lg font-bold leading-[1.6]">Message</label>
-                                            <textarea name="contact-message" id="contact-message"
+                                            <textarea name="message" id="contact-message"
                                                 class="min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 placeholder="Write your message here..." required>
                                             </textarea>
